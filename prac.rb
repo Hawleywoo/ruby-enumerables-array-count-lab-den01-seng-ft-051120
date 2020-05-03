@@ -12,4 +12,14 @@ var = bands.reduce({}) do |memo, (key, value)|
   memo
 end
 
-p var
+first_most_name = bands.reduce(nil) do |memo, (key, pair)|
+  memo = value[0] if !memo
+
+  sorted_names = value.sort
+
+  memo = sorted_names[0] if sorted_names[0] <= memo
+
+  p memo
+end
+
+p first_most_name
