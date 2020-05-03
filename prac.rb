@@ -7,7 +7,7 @@ bands = {
 }
 
 
-bands.reduce({}) do |memo, (key, value)|
+var = bands.reduce({}) do |memo, (key, value)|
   p memo
   p key
   p value
