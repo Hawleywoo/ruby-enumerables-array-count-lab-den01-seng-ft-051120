@@ -7,4 +7,4 @@ bands = {
 }
 
 
-puts bands[joy_division][0]
+puts bands[:joy_division][0]
