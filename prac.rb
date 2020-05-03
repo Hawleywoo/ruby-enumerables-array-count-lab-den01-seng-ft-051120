@@ -14,5 +14,3 @@ var = bands.reduce({}) do |memo, (key, value)|
   p value
   memo
 end
-
-
