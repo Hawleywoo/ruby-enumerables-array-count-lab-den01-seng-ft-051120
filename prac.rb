@@ -7,4 +7,8 @@ bands = {
 }
 
 
- bands.each {|pair| p pair }
+bands.reduce({}) do |memo, pair|
+  p memo
+  p pair
+  memo
+end
