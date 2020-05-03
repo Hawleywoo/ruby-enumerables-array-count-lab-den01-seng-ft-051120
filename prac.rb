@@ -9,8 +9,6 @@ bands = {
 
 var = bands.reduce({}) do |memo, (key, value)|
   memo[key] = value.sort
-  p memo
-  p key
-  p value
-  memo
 end
+
+p var
