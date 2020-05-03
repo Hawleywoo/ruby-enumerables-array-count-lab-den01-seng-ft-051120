@@ -1,5 +1,4 @@
-prac =[1, 2, 3, 4].count do |element|
-  p element.even?
-end
-
-puts prac * 2
+array = [1..5]
+tots = 0
+array.each {|element| tots += element}
+puts tots
