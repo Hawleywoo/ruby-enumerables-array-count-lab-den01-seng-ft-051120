@@ -7,4 +7,4 @@ bands = {
 }
 
 
-puts prac = bands.find {|element| element == "johnny"}
+ bands.each {|pair| p pair }
