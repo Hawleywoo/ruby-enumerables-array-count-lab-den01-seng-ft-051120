@@ -7,8 +7,9 @@ bands = {
 }
 
 
-bands.reduce({}) do |memo, pair|
+bands.reduce({}) do |memo, (key, value)|
   p memo
-  p pair
+  p key
+  p value
   memo
 end
