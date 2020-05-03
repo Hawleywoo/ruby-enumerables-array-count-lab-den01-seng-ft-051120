@@ -7,4 +7,4 @@ bands = {
 }
 
 
-puts bands[:joy_division]
+puts bands.find {|element| element == :the_cramps}
