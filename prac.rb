@@ -7,4 +7,4 @@ bands = {
 }
 
 
-puts bands.find {|element| element == :the_cramps}
+puts prac = bands.find {|element| element == :the_cramps}
