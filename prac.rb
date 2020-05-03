@@ -14,7 +14,7 @@ end
 
 first_most_name = bands.reduce(nil) do |memo, (key, value)|
   memo = value[0] if !memo
-
+  p memo
   sorted_names = value.sort
 
   memo = sorted_names[0] if sorted_names[0] <= memo
